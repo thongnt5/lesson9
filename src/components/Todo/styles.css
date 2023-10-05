@@ -1,0 +1,58 @@
+.todo-container{
+    margin-top: 20px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f0f9ff;
+    border-top: 1px solid #ebedee;
+    border-bottom: 1px solid #ebedee;
+}
+
+.item-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-icon{
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.todo-bottom{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress{
+    position: relative;
+    border: 1px solid #ececec;
+    height: 30px;
+    max-width: 200px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.progress .layer-progress{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: #faed49;
+    top: 0;
+    left: 0;
+}
+
+.progress .progress-content{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

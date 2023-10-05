@@ -1,0 +1,11 @@
+.form{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.inputChanged{
+    color: aqua;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mooli', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  background: #489cc1;
+}
+
+.container{
+  max-width: 550px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+}
